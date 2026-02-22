@@ -68,10 +68,10 @@ button.addEventListener('click', () => {
                     break;
                 default:
         }
-        if (data.main.humidity > 0) {
+        if (data.main.humidity > 70) {
             iconoHumedad.src = 'img/humedad.png';
         }
-        if ((data.wind.speed*3.6).toFixed(1) > 7) {
+        if ((data.wind.speed*3.6).toFixed(1) > 17) {
             iconoViento.src = 'img/viento.png';
         }
 
