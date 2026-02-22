@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Tiempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Web del tiempo</h1>
+        <section id="tiempo">
+            <input id="input" type="text" placeholder="Introduce una ciudad" spellcheck="false">
+            <button id="button"><img src="/img/search_1022319.png" alt="Buscar" width="30px"></button>
+            <p id="error">Nombre de la ciudad erróneo</p>
+        </section>
+        <section id ="resultado">
+            <div>
+                <h3 id="lugar-grado"></h3>
+                <img id="icono-clima"  alt="" width="40px">
+            </div>
+            <div>
+                <p>Detalles:</p>
+                <p id="descripcion"></p>
+                
+                <div class="fila-detalle">
+                    <p id="humedad"></p>
+                    <img id="icono-humedad" src="" alt="" width="25px">
+                </div>
+
+                <div class="fila-detalle">
+                    <p id="viento"></p>
+                    <img id="icono-viento" src="" alt="" width="25px">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
